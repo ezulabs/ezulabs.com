@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --color-ice-50: #eaf5fa;
+  --color-ice-100: #cce8f4;
+  --color-ice-200: #a3d5ec;
+  --color-ice-300: #6fbdde;
+  --color-ice-400: #4a9cc4;
+  --color-ice-500: #3884b0;
+  --color-ice-600: #2d6d94;
+  --color-ice-700: #235678;
+  --color-ice-800: #1a405c;
+  --color-ice-900: #112a40;
+  --color-ice-950: #0a1a2b;
+}
+
 html {
   scroll-behavior: smooth;
 }

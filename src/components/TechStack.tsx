@@ -1,42 +1,24 @@
-const technologies = {
-  'Languages': ['TypeScript', 'JavaScript', 'Java', 'Kotlin', 'Python', 'C/C++', 'Swift', 'Lua'],
-  'Frontend': ['React', 'Next.js', 'Tailwind CSS', 'GrapesJS'],
-  'Backend': ['Node.js', 'Express', 'gRPC', 'Ktor', 'REST APIs'],
-  'Mobile': ['Android', 'Jetpack Compose', 'iOS', 'React Native'],
-  'AI/ML': ['OpenAI', 'Claude', 'TensorFlow', 'OpenCV', 'Faiss', 'Whisper'],
-  'Infrastructure': ['Docker', 'Kubernetes', 'PostgreSQL', 'MongoDB', 'Redis'],
-  'Embedded': ['Linux', 'TrustZone', 'BLE', 'IoT', 'Device Drivers'],
+const stack = {
+  Systems: 'C, C++, Rust, ARM Assembly, Linux Drivers, Compiler Design',
+  Application: 'TypeScript, Kotlin, Java, Swift, Python, Lua, React, Next.js',
+  'AI / ML': 'MLX, LLM Orchestration, Tool-Call Parsing, MCP, OpenCV',
+  Mobile: 'Android, Jetpack Compose, iOS, Tauri',
+  Infrastructure: 'AWS, GCP, Docker, Kubernetes, PostgreSQL, gRPC, FastAPI',
+  Embedded: 'Linux, ARM TrustZone, BLE, IoT, Device Drivers, FFmpeg',
 }
 
 export default function TechStack() {
   return (
-    <section id="tech" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Technology Stack
-          </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Deep expertise across the modern technology landscape.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.entries(technologies).map(([category, techs]) => (
-            <div key={category} className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
-                {category}
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {techs.map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-3 py-1 bg-white text-gray-700 text-sm rounded-full border border-gray-200 hover:border-blue-300 hover:text-blue-600 transition-colors"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
+    <section id="tech" className="py-16 border-t border-gray-800/50">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
+          Stack
+        </h2>
+        <div className="space-y-4">
+          {Object.entries(stack).map(([category, techs]) => (
+            <div key={category} className="flex items-baseline gap-3">
+              <span className="text-gray-400 text-sm w-28 shrink-0">{category}</span>
+              <span className="text-gray-500 text-sm">{techs}</span>
             </div>
           ))}
         </div>
