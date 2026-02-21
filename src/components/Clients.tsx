@@ -1,10 +1,11 @@
 const clients = [
-  { name: 'Amazon', note: 'Fire TV launch, DRM' },
-  { name: 'Instacart', note: 'Smart cart, microservices' },
-  { name: 'Logitech', note: 'Embedded UI, drivers' },
-  { name: 'Qualcomm', note: 'Media platform' },
-  { name: 'Duke University', note: 'OCR pipeline' },
+  { name: 'Amazon', note: 'Fire TV Android platform, DRM, media' },
+  { name: 'Instacart', note: 'Smart cart Android, backend, microservices' },
+  { name: 'Logitech', note: 'Embedded UI, Qt, Linux drivers' },
+  { name: 'Qualcomm', note: 'Android & Linux media platform' },
+  { name: 'Duke University', note: 'OCR pipeline, analytics dashboard' },
   { name: 'Grapes Studio', note: 'AI chatbot · OCV / GitLab Founder\'s Fund' },
+  { name: 'Cabot Communications UK', note: 'Digital TV middleware, DVB stack' },
 ]
 
 export default function Clients() {
