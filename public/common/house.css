@@ -258,6 +258,7 @@ p { margin: 0 0 1em; }
 .foot .wrap { display: grid; gap: 1rem; border-top: 2px dashed var(--dash); padding-top: 2rem; }
 .foot nav { display: flex; flex-wrap: wrap; gap: 1.5rem; font: 700 .95rem/1 var(--text); color: var(--ink); }
 .foot nav a { text-decoration: none; } .foot nav a:hover { text-decoration: underline 2px var(--red); }
+.foot .social { font-weight: 400; gap: 1.25rem; } .foot .social a::after { content: " \2197"; color: var(--ink-soft); }
 .foot p { margin: 0; }
 .foot .tm { font-size: .8rem; max-width: 90ch; }
 
