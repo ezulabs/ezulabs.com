@@ -1,22 +1,25 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Services from './components/Services'
-import Clients from './components/Clients'
-import TechStack from './components/TechStack'
+import Products from './components/Products'
+import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-950">
+    <>
+      <a className="skip" href="#main">
+        Skip to the content
+      </a>
       <Navbar />
-      <Hero />
-      <Services />
-      <Clients />
-      <TechStack />
-      <Contact />
+      <main id="main">
+        <Hero />
+        <Products />
+        <About />
+        <Contact />
+      </main>
       <Footer />
-    </div>
+    </>
   )
 }
 
