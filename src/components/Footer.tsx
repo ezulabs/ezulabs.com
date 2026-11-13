@@ -1,3 +1,5 @@
+import { SOCIAL } from '../social'
+
 export default function Footer() {
   return (
     <footer className="foot">
@@ -8,12 +10,13 @@ export default function Footer() {
           <a href="/probe/">Wireless Probe</a>
         </nav>
         <nav className="social" aria-label="ezulabs elsewhere">
-          <a href="https://www.youtube.com/@EzuLabs" rel="me">
-            YouTube
-          </a>
-          <a href="https://www.instagram.com/ezulabs/" rel="me">
-            Instagram
-          </a>
+          {SOCIAL.map((s) => (
+            <a key={s.name} href={s.href} rel="me" aria-label={`ezulabs on ${s.name}`} title={s.name}>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d={s.path} />
+              </svg>
+            </a>
+          ))}
         </nav>
         <p>© {new Date().getFullYear()} ezulabs.</p>
         <p className="tm">
