@@ -35,11 +35,11 @@ export default function Contact() {
             </div>
           </details>
           <details>
-            <summary>Can I buy the wireless probe?</summary>
+            <summary>How do I get the wireless probe?</summary>
             <div>
               <p>
-                Not yet: it's in development. Leave your email on <a href="/probe/#signup">its page</a> and we'll tell
-                you when it's ready.
+                It's in early access: leave your email on <a href="/probe/#signup">its page</a> and we'll write to you
+                about getting one.
               </p>
             </div>
           </details>

@@ -17,8 +17,8 @@ const products = [
     name: 'Wireless Probe',
     href: '/probe/',
     text: "Flash and debug Cortex-M boards over Wi-Fi, or over Bluetooth when there's no network. Works with probe-rs, and programs AVR chips too.",
-    status: 'In development',
-    stamp: 'gray',
+    status: 'Early access',
+    stamp: 'green',
   },
 ]
 
