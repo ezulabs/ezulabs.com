@@ -3,8 +3,8 @@ const products = [
     name: 'MXF Studio',
     href: '/mxf-studio/',
     text: 'Show it your board and parts, say what you want, and it builds the device. Games and real Kotlin code too. For iPhone and iPad, ages 9+.',
-    status: 'Coming soon',
-    stamp: '',
+    status: 'On the App Store',
+    stamp: 'green',
   },
   {
     name: 'MXF SDK',

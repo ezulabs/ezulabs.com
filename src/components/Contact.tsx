@@ -14,11 +14,14 @@ export default function Contact() {
         </aside>
         <div className="faq">
           <details open>
-            <summary>When does MXF Studio come out?</summary>
+            <summary>Where do I get MXF Studio?</summary>
             <div>
               <p>
-                It's coming soon to the App Store, for iPhone and iPad. Leave your email on{' '}
-                <a href="/mxf-studio/#signup">its page</a> and we'll tell you when it's out.
+                It's free on the{' '}
+                <a href="https://apps.apple.com/app/id6834536520" rel="noopener">
+                  App Store
+                </a>
+                , for iPhone and iPad with iOS 26 or later.
               </p>
             </div>
           </details>
